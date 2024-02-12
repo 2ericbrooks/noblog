@@ -17,3 +17,4 @@ export default function RootLayout ({ children }: { children: ReactNode }) {
     </ConfigProvider>
   )
 }
+export const runtime = 'edge' // 'nodejs' (default) | 'edge'
