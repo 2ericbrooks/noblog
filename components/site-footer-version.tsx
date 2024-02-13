@@ -7,7 +7,7 @@ export default function SiteFooterVersion () {
 
   return config.version && (
     <span className="site-footer-version">
-      ver.&nbsp;
+      ver. &nbsp;
       {/^[0-9a-f]+$/.test(config.version) ? <code>{config.version}</code> : config.version}
     </span>
   )
