@@ -1,5 +1,5 @@
 exports.FONTS_SANS = [
-  'ui-sans-serif',
+  'Inter',
   'system-ui',
   '-apple-system',
   'BlinkMacSystemFont',
@@ -25,7 +25,7 @@ exports.FONTS_SANS = [
   'sans-serif',
 ]
 exports.FONTS_SERIF = [
-  '"Source Serif"',
+  'Lora',
   'ui-serif',
   'Georgia',
   '"Nimbus Roman No9 L"',
